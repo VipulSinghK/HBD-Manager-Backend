@@ -3,7 +3,7 @@ const pool = require('../db');
 const sendBirthdayMail = require('../mailer');
 
 cron.schedule('*/1 * * * *', async () => {
-    console.log("🎂 Checking birthdays...");
+    console.log("Checking birthdays...");
 
     try {
         const result = await pool.query(`
@@ -28,3 +28,4 @@ cron.schedule('*/1 * * * *', async () => {
         console.error("Scheduler error:", err);
     }
 });
+
