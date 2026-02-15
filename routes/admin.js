@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const pool = require('../db');
-   console.log("✅ Admin routes loaded");
 
 // Admin login
 router.post('/login', async (req, res) => {
@@ -99,3 +98,4 @@ router.get('/birthdays/today', async (req, res) => {
 
 
 module.exports = router;
+
