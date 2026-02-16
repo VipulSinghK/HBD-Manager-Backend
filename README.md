@@ -113,7 +113,7 @@ The scheduler continuously checks stored dates and triggers appropriate workflow
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/your-username/hbd-manager.git
+https://github.com/VipulSinghK/HBD-Manager-Backend.git
 cd hbd-manager
 ```
 
